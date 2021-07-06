@@ -1,0 +1,175 @@
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.bg-black {
+  color: #fff;
+  background: #000;
+}
+.title-container{
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
+}
+
+.project-footer{
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-footer a{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+#work img{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+
+/*error page*/
+
+
+
+.mainbox {
+  margin: 100px auto;
+  /*height: 600px;*/
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  display: flex;
+  flex-direction: column;
+
+}
+.error-container{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+}
+h2.err{
+  font-family: 'mainFont', Calibri, sans-serif;
+  font-weight: bold;
+}
+.err {
+  color: #3d3535;
+  font-size: 100px;
+  margin: 20px;
+}
+.msg {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #f624f2;
+}
+
+.error-page a:hover,
+.construction a:hover{
+  text-decoration: underline;
+}
+
+
+
+.construction .error-container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+.construction h2.err{
+  font-family: 'mainFont', Calibri, sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.construction .err {
+  color: #3d3535;
+  font-size: 50px;
+  margin: 10px;
+}
+.construction .fas {
+
+  margin: 10px;
+}
+.construction .msg {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.7);
+}
+.construction a {
+
+  color: #f624bb;
+}
+@media screen and (max-width: 880px) {
+  .construction .mainbox{
+    width: 70%;
+    left: 15%;
+    right: 15%;
+
+  }
+
+}
+@media screen and (max-width: 630px) {
+  .construction .mainbox{
+    width: 90%;
+    left: 5%;
+    right: 5%;
+  }
+
+
+  .construction .err {
+    font-size: 30px;
+    margin: 8px;
+  }
+
+  .construction .msg {
+
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .err {
+    color: #3d3535;
+    font-size: 70px;
+  }
+  .fr{
+    font-size: 50px;
+  }
+  .msg {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+
